@@ -1,0 +1,21 @@
+import Head from "next/head";
+type Props = {
+  children: React.ReactNode;
+  title?: string;
+};
+
+export const Layout: React.FC<Props> = ({ children, title }) => {
+  return (
+    <>
+      <Head>
+        <title>{title || 'Pokemon App'}</title>
+        <meta name="author" content="Mizael Soler" />
+        <meta name="description" content="Informacion sobre el pokemon xxxx" />
+        <meta name="keywords" content="xxxx, pokemon, pokedex" />
+      </Head>
+      {/*Navbar */}
+
+      <main>{children}</main>
+    </>
+  );
+};
