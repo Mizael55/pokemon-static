@@ -4,7 +4,7 @@ import { Layout } from "../../components/layouts";
 const favorites = () => {
   return (
     <Layout title="Favoritos">
-      <div>Hola maundi</div>
+      <div>Estamos trabajando </div>
     </Layout>
   );
 };
