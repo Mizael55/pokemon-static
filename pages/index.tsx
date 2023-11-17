@@ -4,8 +4,7 @@ import { Layout } from "../components/layouts";
 import { pokeApi } from "@/api";
 import { PokeminListResponse, SmallPokemon } from "@/interfaces";
 import { Grid } from "@nextui-org/react";
-import {PokemonCard} from '@/components/pokemon';
-
+import { PokemonCard } from "@/components/pokemon";
 
 interface Props {
   pokemons: SmallPokemon[];
